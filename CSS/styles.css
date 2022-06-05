@@ -82,10 +82,11 @@ body {
   background-color: var(--accent);
   color: var(--offwhite);
   transition: cubic-bezier(0.9, 0, 0.4, 1) 1s;
+  filter: opacity(0.8);
 }
 
 .EVC__Header-SpalashPage div:hover {
-  filter: opacity(0.9);
+  filter: opacity(1);
 }
 
 .EVC__Header-SpalashPage div h1 {
