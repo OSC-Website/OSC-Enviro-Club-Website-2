@@ -125,14 +125,15 @@ body {
 
 @keyframes scroll-down {
   0% {
-    top: 0rem;
+    top: 0%;
     filter: opacity(0);
   }
   50% {
+    top: 70%;
     filter: opacity(1);
   }
   100% {
-    top: 70%;
+    top: 0%;
     filter: opacity(0);
   }
 }
@@ -147,7 +148,6 @@ body {
   justify-content: center;
   background-color: var(--offwhite);
   align-items: center;
-  border-radius: 0 5rem 5rem 0;
   flex-direction: column;
 }
 
@@ -174,7 +174,7 @@ body {
 .EVC__Main-Impact-Grid__Wrapper div a {
   font-size: 2rem;
   width: 100%;
-  color: var(--link);
+  color: var(--accent);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,7 +183,7 @@ body {
 }
 
 .EVC__Main-Impact-Grid__Stream {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../Images/StreamPlaceHolder.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -196,4 +196,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* About Us */
+.EVC__Main-AboutUs {
+  width: 100%;
 }
