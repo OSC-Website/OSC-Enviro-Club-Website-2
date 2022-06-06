@@ -7,8 +7,8 @@ body {
 
 :root {
   --grey: #1f2421;
-  --accent: #137547;
-  --accent2: #25a18e;
+  --accent: #386641;
+  --accent2: #588157;
   --offwhite: #e8f1f2;
   --link: #06c;
 }
@@ -18,7 +18,11 @@ body {
   width: 100%;
   background-color: var(--accent);
   display: flex;
-  filter: opacity(0.9);
+  height: 87px;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+  filter: opacity(0.95);
   align-items: center;
   justify-content: space-between;
 }
@@ -66,6 +70,7 @@ body {
 
 /* Splash Page */
 .EVC__Header-SpalashPage {
+  margin-top: 87px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../Images/SplashPageImg.JPG");
   background-position: center;
@@ -141,64 +146,52 @@ body {
 /* MAIN */
 /* Impact */
 .EVC__Main-Impact {
-  padding: 1rem;
   width: 100%;
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-  background-color: var(--offwhite);
-  align-items: center;
-  flex-direction: column;
 }
 
-.EVC__Main-Impact h2 {
+/* Stream Monitoring */
+.EVC__Main-Impact__Stream {
+  width: 100%;
+  background-color: var(--accent2);
+  padding: 1.5rem 0 1.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.EVC__Main-Impact__Stream div > h2 {
   font-size: 3rem;
 }
 
-.EVC__Main-Impact-Grid__Wrapper {
+.EVC__Main-Impact__Stream div > p {
+  font-size: 1.5rem;
+}
+
+.EVC__Main-Impact__Stream img {
+  max-width: 40rem;
+}
+
+/* Pest Management */
+.EVC__Main-Impact__Pest {
+  width: 100%;
+  padding: 1.5rem 0 1.5rem 0;
+  background-color: var(--accent2);
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  flex-direction: row-reverse;
 }
 
-.EVC__Main-Impact-Grid__Wrapper div {
-  margin: 1.5%;
-  width: 30%;
-  aspect-ratio: 1 / 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.EVC__Main-Impact__Pest div > h2 {
+  font-size: 3rem;
 }
 
-.EVC__Main-Impact-Grid__Wrapper div a {
-  font-size: 2rem;
-  width: 100%;
-  color: var(--accent);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  text-decoration: underline;
+.EVC__Main-Impact__Pest div > p {
+  font-size: 1.5rem;
 }
 
-.EVC__Main-Impact-Grid__Stream {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../Images/StreamPlaceHolder.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.EVC__Main-Impact-Grid__Pest {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../Images/PestPlaceHolder.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* About Us */
-.EVC__Main-AboutUs {
-  width: 100%;
+.EVC__Main-Impact__Pest img {
+  width: 38rem;
 }
