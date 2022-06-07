@@ -152,6 +152,7 @@ body {
 /* Stream Monitoring */
 .EVC__Main-Impact__Stream {
   color: var(--offwhite);
+  border-radius: 0 2.5rem 2.5rem 0;
   width: 100%;
   background-color: var(--accent2);
   padding: 1.5rem 0 1.5rem 0;
@@ -159,6 +160,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   margin-top: 2rem;
+  text-align: right;
 }
 
 .EVC__Main-Impact__Stream div > h2 {
@@ -170,7 +172,8 @@ body {
 }
 
 .EVC__Main-Impact__Stream div > a {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  color: var(--offwhite);
 }
 
 .EVC__Main-Impact__Stream img {
@@ -180,6 +183,7 @@ body {
 
 /* Pest Management */
 .EVC__Main-Impact__Pest {
+  border-radius: 2.5rem 0 0 2.5rem;
   color: var(--offwhite);
   width: 100%;
   padding: 1.5rem 0 1.5rem 0;
@@ -200,10 +204,13 @@ body {
 }
 
 .EVC__Main-Impact__Pest div > a {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  color: var(--offwhite);
 }
 
 .EVC__Main-Impact__Pest img {
   width: 38rem;
   border-radius: 5px;
 }
+
+/* About Us */
