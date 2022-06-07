@@ -151,6 +151,7 @@ body {
 
 /* Stream Monitoring */
 .EVC__Main-Impact__Stream {
+  color: var(--offwhite);
   width: 100%;
   background-color: var(--accent2);
   padding: 1.5rem 0 1.5rem 0;
@@ -168,12 +169,18 @@ body {
   font-size: 1.5rem;
 }
 
+.EVC__Main-Impact__Stream div > a {
+  font-size: 1.2rem;
+}
+
 .EVC__Main-Impact__Stream img {
   max-width: 40rem;
+  border-radius: 5px;
 }
 
 /* Pest Management */
 .EVC__Main-Impact__Pest {
+  color: var(--offwhite);
   width: 100%;
   padding: 1.5rem 0 1.5rem 0;
   background-color: var(--accent2);
@@ -192,6 +199,11 @@ body {
   font-size: 1.5rem;
 }
 
+.EVC__Main-Impact__Pest div > a {
+  font-size: 1.2rem;
+}
+
 .EVC__Main-Impact__Pest img {
   width: 38rem;
+  border-radius: 5px;
 }
