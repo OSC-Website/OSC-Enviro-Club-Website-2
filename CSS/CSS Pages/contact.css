@@ -73,7 +73,7 @@ body {
 .EVC__Header-SpalashPage {
   margin-top: 87px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../Images/ContactImages/no-people-desk-with-multiple-computers-call-center-office-used-by-telemarketing-agents-answer-phone-calls-helpline-empty-space-with-technology-give-assistance-customer-care.jpg");
+    url("../../Images/ContactImages/DeskSplashPage.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,6 +107,77 @@ body {
 
 /* MAIN */
 /* Form */
+.EVC__Main-FormWraper {
+  width: 60%;
+  margin: 5rem 00px 5rem 20%;
+  background-color: var(--accent);
+  border-radius: 10px 3rem 10px 3rem;
+  color: var(--offwhite);
+}
+
+form {
+  padding: 1rem;
+  width: 60%;
+  margin-left: 20%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 2rem;
+  margin-top: 1.4rem;
+}
+
+#fname,
+#lname,
+#pnumber,
+#email {
+  width: 100%;
+  margin: 0.5rem;
+  border-radius: 0 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px var(--offwhite) solid;
+  background: transparent;
+}
+
+form textarea {
+  width: 100%;
+  height: 7rem;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: 2px var(--offwhite) solid;
+  background: transparent;
+  border-radius: 10px;
+}
+
+/* Place Holders */
+#fname::placeholder,
+#lname::placeholder,
+#pnumber::placeholder,
+#email::placeholder,
+#message::placeholder {
+  color: var(--offwhite);
+  padding: 1rem;
+}
+
+/* Submit */
+#submit {
+  width: 80%;
+  height: 2rem;
+  color: var(--offwhite);
+  background-color: transparent;
+  border: 2px var(--offwhite) solid;
+  margin: 1rem 0 1.4rem 10%;
+  transition: all 0.3s ease 0s;
+}
+
+#submit:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
 
 /* Footer */
 .EVC__Footer {
