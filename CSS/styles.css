@@ -187,7 +187,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 5rem;
+  margin: 7rem 0 7rem 0;
 }
 
 .EVC__Main-AboutUs h2 {
@@ -199,4 +199,73 @@ body {
   width: 60%;
   font-size: 1.5rem;
   text-align: left;
+}
+
+/* Footer */
+.EVC__Footer {
+  padding: 3rem 0 3rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--accent2);
+  color: var(--offwhite);
+}
+
+.EVC__Footer-Col h3 {
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+.EVC__Footer-Col > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.EVC__Footer-Col > ul li {
+  margin-left: 2rem;
+  transition: cubic-bezier(0.9, 0, 0.4, 1) 1s;
+}
+
+.EVC__Footer-Col > ul li > a {
+  color: var(--offwhite);
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: cubic-bezier(0.9, 0, 0.4, 1) 1s;
+}
+
+.EVC__Footer-Col > ul li > a:hover {
+  color: var(--grey);
+}
+
+.EVC__Footer-Col > ul li:hover {
+  transform: translate(10px, 0px);
+}
+
+/* Footer Social Links */
+.EVC__Footer-Col-Social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.EVC__Footer-Col-Social > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.EVC__Footer-Col-Social > ul li {
+  margin: 1rem 0 0 0;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.EVC__Footer-Col-Social > ul li a i {
+  font-size: 2rem;
+}
+
+.EVC__Footer-Col-Social > ul li:hover {
+  transform: translate(0, -10px);
 }
