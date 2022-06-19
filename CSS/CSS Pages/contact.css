@@ -110,9 +110,13 @@ body {
 .EVC__Main-FormWraper {
   width: 60%;
   margin: 5rem 00px 5rem 20%;
-  background-color: var(--accent);
+  background-color: var(--accent2);
   border-radius: 10px 3rem 10px 3rem;
   color: var(--offwhite);
+}
+
+.EVC__Main-FormWraper h2 {
+  font-size: 3rem;
 }
 
 form {
@@ -127,7 +131,8 @@ form {
 
 form label {
   font-size: 2rem;
-  margin-top: 1.4rem;
+  margin-top: 1.7rem;
+  font-weight: 500;
 }
 
 #fname,
@@ -136,7 +141,7 @@ form label {
 #email {
   width: 100%;
   margin: 0.5rem;
-  border-radius: 0 10px;
+  border-radius: 0.5rem;
   border-top: none;
   border-left: none;
   border-right: none;
