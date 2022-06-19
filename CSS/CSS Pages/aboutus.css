@@ -117,7 +117,7 @@ body {
 }
 
 .EVC__Main-AboutUs h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   width: 40%;
   text-align: center;
 }
@@ -125,6 +125,48 @@ body {
 .EVC__Main-AboutUs p {
   width: 60%;
   font-size: 1.4rem;
+}
+/* Testimonials */
+.EVC__Main-Testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5rem 0 5rem 5%;
+  width: 90%;
+  color: var(--offwhite);
+}
+
+.EVC__Main-Testimonials h2 {
+  font-size: 4rem;
+  color: var(--grey);
+}
+
+.EVC__Main-Testimonial-Wrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.EVC__Main-Testimonial-Container {
+  width: 29%;
+  background-color: var(--accent2);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.EVC__Main-Testimonial-ImgAndName {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.EVC__Main-Testimonial-ImgAndName img {
+  max-width: 60px;
+  border-radius: 50%;
+  margin: 1rem;
 }
 
 /* Footer */
